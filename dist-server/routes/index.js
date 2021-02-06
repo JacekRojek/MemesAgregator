@@ -12,7 +12,7 @@ var _require = require('../sources/jbzd'),
     getImages = _require.getImages;
 
 var router = express.Router();
-var url = "https://jbzd.com.pl/str/2";
+var url = 'https://jbzd.com.pl/str/2';
 /* GET home page. */
 
 router.get('/', /*#__PURE__*/function () {
