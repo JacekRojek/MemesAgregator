@@ -43,7 +43,9 @@ function _getImages() {
                 src: src
               });
             });
-            return _context.abrupt("return", memes);
+            return _context.abrupt("return", memes.filter(function (m) {
+              return m.src;
+            }));
 
           case 10:
             _context.prev = 10;

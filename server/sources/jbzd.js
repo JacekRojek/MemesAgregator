@@ -12,7 +12,7 @@ export async function getImages(url) {
       const src = $(this).find('img').attr('src');
       memes.push({ src });
     });
-    return memes;
+    return memes.filter(m => m.src);
   } catch (err) {
     console.error(err);
     return [];
